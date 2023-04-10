@@ -1,6 +1,7 @@
 "use client";
 import { type } from 'os'
 import React, { useEffect } from 'react'
+import Link from 'next/link';
 import { useState } from 'react'
 import img from '../public/bg-home-1.jpeg'
 import {BsBoxArrowInRight} from 'react-icons/bs'
@@ -20,7 +21,7 @@ export default function Mainview() {
         status:true
       },
       {
-        text:"Front-end development",
+        text:"Web development",
         status:false
       },
       {
@@ -100,16 +101,16 @@ export default function Mainview() {
     <div className="bg-[url('../public/bg-home-2.jpeg')] bg-[length:1900px] bg-no-repeat bg-left h-screen flex justify-center items-center mr-24 -mt-12 rounded-r-[50px]">
       <div className="absolute right-0 w-24 h-full flex items-end duration-300 justify-center pb-20 cursor-pointer hover:pb-10">
         <div className='flex justify-center items-center text-3xl whitespace-nowrap rotate-90'>
-          <p className='px-3'>Les&apos;s go!</p>
+          <a href="/#aboutus"><p className='px-3 scroll-smooth'>Les&apos;s go!</p></a>
           <BsBoxArrowInRight className='w-[40px] h-[40px]' />
-          </div>
         </div>
-        <div className=' text-white w-[1140px]'>
-            <p className='text-5xl font-[500]'>Welcome in my world of</p>
+        </div>
+        <div className=' text-white w-[1140px] lg:h-auto h-[100px]'>
+            <p className='text-5xl font-[500] md:pl-0 pl-2'>Welcome in my world of</p>
             {MyWork.map(w => {
               if(w.status === true){
                 return (
-                  <p key={w.text} className='text-6xl font-[200] text-shadow-[10px] duration-150'>{w.text}</p>
+                  <p key={w.text} className='md:pl-0 pl-2 text-[55px] leading-[55px] md:text-6xl font-[200] text-shadow-[10px] duration-150'>{w.text}</p>
                 )
               }
             })}
