@@ -2,3 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer {
+
+
+  html{
+    @apply overflow-x-hidden
+  }
+
+  .list-item-style{
+     @apply cursor-pointer font-[500] duration-150 hover:bg-[#423e59] px-4 py-2 rounded-sm text-[#423e59] hover:text-white
+  }
+
+  .list-icons-style{
+    @apply cursor-pointer duration-150 hover:bg-[#423e59] px-2 py-2 rounded-[100%] hover:text-white w-[40px] h-[40px] list-none
+ }
+
+ .form-style {
+    @apply h-auto
+ }
+
+ .input{
+    @apply my-10 rounded-md
+ }
+ 
+}
+
