@@ -9,7 +9,7 @@ export default function Portfolio() {
       <div className='mx-2 h-[550px] flex flex-col p-2 rounded-md shadow-2xl justify-between'>
         <div className='h-[220px] bg-red-900 object-cover overflow-hidden border shadow-xl'>
           <Image 
-            src={`/${o.photo}`}
+            src={o.photo}
             width={500}
             height={300}
             alt='portfolio'

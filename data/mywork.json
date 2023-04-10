@@ -3,34 +3,34 @@
         "description":"Website that You area reading now. You can find here my skill above this section and any important information about me",
         "technologies":["Next.js", "Tailwind", "MongoDB", "Cloudinary", "TypeScript","Nodemailer"],
         "link":"https://wearabrave.com.pl",
-        "photo":"/public/brave.png"
+        "photo":"/brave.png"
     },
     {
         "title": "Onesta Group",
         "description":"This is real estate website for company what works for polish-speaking clients which try to catch some nice property in Spain, Portugal, Croatia, Dubaj.",
         "technologies":["Next.js", "Tailwind", "MongoDB", "Cloudinary", "Node.js, Express.js","Nodemailer", "MuiIcons","Postman"],
         "link":"https://onesta.com.pl",
-        "photo":"/public/onesta.png"
+        "photo":"/onesta.png"
     },
     {
         "title": "Healthy Living",
         "description":"This is demo a website demo where you can calculate your BPM, PPM with recomendations to lose/maintain/gain body weight",
         "technologies":["Next.js", "Tailwind", "Nodemailer"],
         "link":"https://healthyliving.com.pl",
-        "photo":"/public/healthy.png"
+        "photo":"/healthy.png"
     },
     {
         "title": "Work Station",
         "description":"Website demo for recruitment agency in Poland. It very simple in content now but you can see how technologies are used.",
         "technologies":["Next.js", "Tailwind", "MongoDB", "Cloudinary", "Nodemailer"],
         "link":"https://work-station.pl",
-        "photo":"/public/workstation.png"
+        "photo":"/workstation.png"
     },
     {
         "title": "Somewhere",
         "description":"This is portfolio website for studio design. This studio specialize in 3D projections POS and real estate projects.",
         "technologies":["Next.js", "Tailwind", "MongoDB", "Cloudinary", "Nodemailer"],
         "link":"https://somewhere.website",
-        "photo":"/public/somewhere.png"
+        "photo":"/somewhere.png"
     }
 ]
