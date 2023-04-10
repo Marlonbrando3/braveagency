@@ -101,7 +101,7 @@ export default function Mainview() {
     <div className="bg-[url('../public/bg-home-2.jpeg')] bg-[length:1900px] bg-no-repeat bg-left h-screen flex justify-center items-center mr-24 -mt-12 rounded-r-[50px]">
       <div className="absolute right-0 w-24 h-full flex items-end duration-300 justify-center pb-20 cursor-pointer hover:pb-10">
         <div className='flex justify-center items-center text-3xl whitespace-nowrap rotate-90'>
-          <a href="/#aboutus"><p className='px-3 scroll-smooth'>Les&apos;s go!</p></a>
+          <Link href="/#aboutus"><p className='px-3 scroll-smooth'>Les&apos;s go!</p></Link>
           <BsBoxArrowInRight className='w-[40px] h-[40px]' />
         </div>
         </div>
