@@ -1,7 +1,7 @@
 import React from 'react'
 import { useRef } from 'react';
 
-export default function contact() {
+export default function Contact() {
 
   const name:any = useRef();
   const phone:any = useRef();
