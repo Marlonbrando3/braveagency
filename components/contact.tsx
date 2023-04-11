@@ -7,13 +7,16 @@ export default function Contact() {
   const phone:any = useRef();
   const email:any = useRef();
   const msg:any = useRef();
+  const submitButton:any = useRef();
 
-  const handleFormSending = (e:any) => {
+  const handleFormSending = async(e:any) => {
+
+    submitButton.current.innerText = "I'm sending..."
 
     console.log("przed fetch")
 
     e.preventDefault();
-    fetch('/api/sendform', {
+    const res = await fetch('/api/sendform', {
       method:'POST',
       headers: {
         'Accept': 'application/json, text/plain, */*',
@@ -26,6 +29,24 @@ export default function Contact() {
         msg: msg.current.value
       })
     })
+    const data = await res.json()
+    console.log(data.info)
+
+    if(data.info === 'true') {
+      setTimeout(() => {
+        submitButton.current.innerText = "It's sent :)"
+        submitButton.current.style.backgroundColor = "green"
+        submitButton.current.style.color = "white"
+      }, 350)
+
+    } else {
+      submitButton.current.style.backgroundColor = "red"
+      submitButton.current.style.color = "white"
+      submitButton.current.innerText = "Not sent :(  Try again"
+    }
+
+
+
   }
 
 
@@ -42,7 +63,7 @@ export default function Contact() {
           <input ref={email} className='input lg:ml-10 my-2 p-2' type="email" placeholder='your email' required></input>
           <input ref={phone} className='input lg:ml-10 my-2 p-2' type="number" placeholder='your phone number'></input>
           <textarea ref={msg} className='input h-[160px]  lg:ml-10 my-2 p-2' placeholder='your message e.g. how can i help you?'></textarea>
-          <button className='border border-text-[#423e59] bg-white text-[#423e59] rounded-md py-3 text-2xl duration-300 font-bold mt-10 hover:bg-[#423e59] hover:text-white'>Send</button>
+          <button ref={submitButton} className='border border-text-[#423e59] bg-white text-[#423e59] rounded-md py-3 text-2xl duration-300 font-bold mt-10 hover:bg-[#423e59] hover:text-white'>Send</button>
         </form>
       </div>
     </div>

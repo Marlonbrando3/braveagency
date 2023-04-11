@@ -2,8 +2,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 const nodemailer = require('nodemailer')
 
-const working = '{"info":"działa"}'
-const noworking = '{"info":"niedziała"}'
+const working = '{"info":"true"}'
+const noworking = '{"info":"false"}'
 
 type Data = {
   name: string
@@ -53,11 +53,13 @@ export default async function handler(
     console.log("wysyłam")
     if(err){
       console.log("błąd: " +err)
-      return res.json(JSON.parse(working))
+      res.json(JSON.parse(noworking))
+      return res.status(500)
     }
     else{
       console.log("działa")
-      return res.json(JSON.parse(noworking))
+      res.json(JSON.parse(working))
+      return res.status(200)
   }})
-  // res.status(200).json({ name: req.body.name })
+
 }
