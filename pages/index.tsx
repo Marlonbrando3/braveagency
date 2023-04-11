@@ -7,11 +7,13 @@ import Skills from '@/components/skills'
 import Portfolio from '@/components/portfolio'
 import Contact from '@/components/contact'
 import Footer from '@/components/Footer'
+import Backtotop from '@/components/backtotop'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
   return (
     <main>
         {/* <Head>
@@ -19,12 +21,13 @@ export default function Home() {
           <meta property="og:title" content="My page title" key="title" />
         </Head> */}
        <Header />
-       <Mainview  />
+       <Mainview />
        <Aboutme />
        <Skills />
        <Portfolio />
        <Contact />
-       < Footer />
+       <Footer />
+       <Backtotop />
     </main>
   )
 }

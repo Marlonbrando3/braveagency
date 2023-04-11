@@ -8,7 +8,7 @@
     {
         "title": "Onesta Group",
         "description":"This is real estate website for company what works for polish-speaking clients which try to catch some nice property in Spain, Portugal, Croatia, Dubaj.",
-        "technologies":["Next.js", "Tailwind", "MongoDB", "Cloudinary", "Node.js, Express.js","Nodemailer", "MuiIcons","Postman"],
+        "technologies":["Next.js", "Tailwind", "MongoDB", "Cloudinary", "Node.js", "Express.js","Nodemailer", "MuiIcons","Postman"],
         "link":"https://onesta.com.pl",
         "photo":"/onesta.png"
     },

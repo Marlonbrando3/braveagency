@@ -29,8 +29,10 @@ export default function Portfolio() {
 
   ))
   return (
+    <>
+    <div id="mywork" className='bg-red-900 h-0 w-full'></div>
     <div className='lg:w-[1140px] mx-auto'>
-        <div className='my-20'>
+        <div className='my-44'>
             <span className='bg-[#423e59] text-3xl py-2 px-5 text-white'>My Work</span>
             <div className='flex w-full flex-wrap items-center justify-center'>
               {work}
@@ -39,5 +41,6 @@ export default function Portfolio() {
             </div>
     </div>
     </div>
+    </>
   )
 }

@@ -8,6 +8,7 @@ import {BsBoxArrowInRight} from 'react-icons/bs'
 
 export default function Mainview() {
 
+
   type Works = {
     text: string,
     status: boolean
@@ -16,11 +17,11 @@ export default function Mainview() {
   // const [actualWork, setAcutalWork] = useState<number>(1)
   const [MyWork, setMyWork] = useState<Works[]>([
       {
-        text:"Digital Marketing",
+        text:"Digital Marketer",
         status:true
       },
       {
-        text:"Web development",
+        text:"Web developer",
         status:false
       },
       {
@@ -32,11 +33,11 @@ export default function Mainview() {
         status:false
       },
       {
-        text:"Sales",
+        text:"Saller",
         status:false
       },
       {
-        text:"Travels",
+        text:"Traveler",
         status:false
       },
       {
@@ -44,7 +45,7 @@ export default function Mainview() {
         status:false
       },
       {
-        text:"Fotography",
+        text:"Fotographer",
         status:false
       },
   ])
@@ -97,10 +98,10 @@ export default function Mainview() {
   },[])
 
   return (
-    <div className="bg-[url('/bg-home-2.jpeg')] md:bg-[length:1900px] bg-[length:900px] bg-center bg-no-repeat md:bg-left h-screen flex justify-center items-center mr-24 -mt-12 rounded-r-[50px]">
-      <div className="absolute right-0 w-24 h-full flex items-end duration-300 justify-center pb-20 cursor-pointer hover:pb-10">
-        <div className='flex justify-center items-center text-3xl whitespace-nowrap rotate-90'>
-          <Link href="/#aboutus"><p className='px-3 smooth'>Les&apos;s go!</p></Link>
+    <div className="bg-[url('/bg-home-2.jpeg')] lg:bg-[length:1900px] md:bg-[length:1000px] bg-[length:900px] bg-center bg-no-repeat md:bg-left h-screen flex justify-center items-center mr-24 -mt-12 rounded-r-[50px]">
+      <div className="absolute right-0 w-24 h-full flex items-end justify-center pb-20">
+        <div className='flex justify-center items-center text-3xl whitespace-nowrap rotate-90 duration-300 hover:pl-10 cursor-pointer'>
+          <Link href="/#aboutus"><p className='px-3 smooth relative'>Let&apos;s go!</p></Link>
           <BsBoxArrowInRight className='w-[40px] h-[40px]' />
         </div>
         </div>
@@ -109,7 +110,7 @@ export default function Mainview() {
             {MyWork.map(w => {
               if(w.status === true){
                 return (
-                  <p key={w.text} className='md:pl-0 pl-2 text-[55px] leading-[55px] md:text-6xl font-[200] text-shadow-[10px] duration-150'>{w.text}</p>
+                  <p key={w.text} className='md:pl-0 pl-2 text-[50px] sm:text-[55px] leading-[55px] md:text-6xl font-[200] text-shadow-[10px] duration-150'>{w.text}</p>
                 )
               }
             })}

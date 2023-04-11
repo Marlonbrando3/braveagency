@@ -25,6 +25,21 @@
  .input{
     @apply my-10 rounded-md
  }
+
+ .tall-menu{
+   /* desktop */
+   @apply lg:bg-white/[0.5] h-[100px] w-full fixed z-20 mt-12 flex justify-end items-center transition-all duration-150 pr-8
+
+   /* mobile */
+   bg-white 
+ }
+ .short-menu{
+   /* desktop */
+   @apply lg:h-[70px] w-full fixed z-20 mt-12 flex justify-end items-center transition-all duration-150 pr-8
+
+    /* mobile */
+    h-[100px] bg-white
+ }
  
 }
 
