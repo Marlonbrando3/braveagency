@@ -1,4 +1,5 @@
-[     {
+[     
+    {
         "title": "We are Brave!",
         "description":"Website that You area reading now. You can find here my skill above this section and any important information about me",
         "technologies":["Next.js", "Tailwind", "MongoDB", "Cloudinary", "TypeScript","Nodemailer"],

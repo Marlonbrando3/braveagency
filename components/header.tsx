@@ -17,6 +17,10 @@ export default function Header() {
 
     const nav:any = useRef();
 
+    const headerHeighCalc = () => {
+        console.log("działa se")
+    }
+
     const menuMobile:any = useRef();
     const[mobileMenu, setmobileMenu] = useState<boolean>(false)
 
@@ -38,6 +42,7 @@ export default function Header() {
         menuMobile.current.style.left = "-110%"
     }
 
+
     const onScroll = useCallback(() => {
 
         if(window.pageYOffset > 150){
@@ -47,6 +52,7 @@ export default function Header() {
             nav.current.className = "tall-menu"
 
         };
+        console.log(window.pageYOffset )
       }, []);
     
       useEffect(() => {

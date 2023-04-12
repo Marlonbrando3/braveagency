@@ -12,7 +12,9 @@ export default function Contact() {
   const handleFormSending = async(e:any) => {
 
     submitButton.current.innerText = "I'm sending..."
-
+    submitButton.current.style.backgroundColor = "green"
+    submitButton.current.style.border = "1px green solid"
+    submitButton.current.style.color = "white"
     console.log("przed fetch")
 
     e.preventDefault();
@@ -34,15 +36,17 @@ export default function Contact() {
 
     if(data.info === 'true') {
       setTimeout(() => {
-        submitButton.current.innerText = "It's sent :)"
+        submitButton.current.innerText = "It's sent!"
+        submitButton.current.style.border = "1px green solid"
         submitButton.current.style.backgroundColor = "green"
         submitButton.current.style.color = "white"
       }, 350)
 
     } else {
       submitButton.current.style.backgroundColor = "red"
+      submitButton.current.style.border = "1px red solid"
       submitButton.current.style.color = "white"
-      submitButton.current.innerText = "Not sent :(  Try again"
+      submitButton.current.innerText = "Not sent. Please try again"
     }
 
 

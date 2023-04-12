@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Head from 'next/head'
+import { useEffect, useCallback, useRef } from 'react'
 import Header from "../components/header"
 import Mainview from '@/components/mainview'
 import Aboutme from '@/components/aboutme'

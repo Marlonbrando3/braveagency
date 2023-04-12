@@ -5,13 +5,13 @@ import data from '../data/mywork.json'
 export default function Portfolio() {
 
   const work = data.map(o => (
-    <div key={o.title} className='w-[500px] mt-10 flex flex-col'>
-      <div className='mx-2 h-[550px] flex flex-col p-2 rounded-md shadow-2xl justify-between'>
-        <div className='h-[220px] bg-red-900 object-cover overflow-hidden border shadow-xl'>
-          <Image 
+    <div key={o.title} className='lg:w-[500px] w-[800px] mt-10 flex flex-col'>
+      <div className='mx-2 lg:h-[650px] h-[1000px] flex flex-col p-2 rounded-md shadow-2xl justify-between'>
+        <div className='lg:h-[290px] bg-red-900 relative overflow-hidden border shadow-xl'>
+          <Image className='object cover'
             src={o.photo}
-            width={500}
-            height={300}
+            width={800}
+            height={500}
             alt='portfolio'
           /></div>
         <p className='text-xl text-center font-semibold'>{o.title}</p>
@@ -31,7 +31,7 @@ export default function Portfolio() {
   return (
     <>
     <div id="mywork" className='bg-red-900 h-0 w-full'></div>
-    <div className='lg:w-[1140px] mx-auto'>
+    <div className='lg:w-[1140px] md:w-auto mx-auto'>
         <div className='my-44'>
             <span className='bg-[#423e59] text-3xl py-2 px-5 text-white'>My Work</span>
             <div className='flex w-full flex-wrap items-center justify-center'>
