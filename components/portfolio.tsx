@@ -33,7 +33,9 @@ export default function Portfolio() {
     <div id="mywork" className='bg-red-900 h-0 w-full'></div>
     <div className='lg:w-[1140px] md:w-auto mx-auto'>
         <div className='my-44'>
-            <span className='bg-[#423e59] text-3xl py-2 px-5 text-white'>My Work</span>
+          <div className='w-[1140px] mx-auto text-3xl px-2 text-white'><span className='text-[#c5915b] font-bold text-xl py-1'>Portfolio</span>
+          <div className='text-[#423e59] text-3xl font-[600] pt-4'>Get to know my projects all of them are still more or less on developing step.</div>
+        </div>
             <div className='flex w-full flex-wrap items-center justify-center'>
               {work}
               <div></div>
