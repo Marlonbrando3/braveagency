@@ -16,7 +16,7 @@ export default function Portfolio() {
           /></div>
         <p className='text-xl text-center font-semibold'>{o.title}</p>
         <p className='h-24'>{o.description}</p>
-        <p className='flex flex-wrap my-3 lg:my-0  '>
+        <p className='flex flex-wrap my-3 lg:my-0'>
           {o.technologies.map(t => (
             <span key={t} className='px-1 text-white bg-gray-500 rounded-sm m-[1px]'>{t}</span>
           ))

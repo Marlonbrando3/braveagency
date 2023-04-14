@@ -79,7 +79,7 @@ export default function Header() {
                 <span className='w-[40px] h-[40px]'><AiFillFacebook className='w-[40px] h-[40px] text-gray-300'/></span>
             </div>
         </nav>
-        <div className='w-[1200px] h-24 flex justify-between items-center mr-12'>
+        <div className='w-full  h-24 flex justify-between items-center mr-12'>
             <Link href="/"><Image 
                 src="/Brave_logo-white.png"
                 width={220}
