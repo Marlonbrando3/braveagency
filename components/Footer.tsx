@@ -55,7 +55,6 @@ export default function Footer() {
     </div>
       <div className='flex w-full items-end justify-end text-white'>
               <div className='flex items-center'>
-                <BiCopyright />
                 <span className='px-2'>2023 Brave. All right reserved.</span>
               </div>
             </div>
