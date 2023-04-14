@@ -6,7 +6,7 @@ export default function Portfolio() {
 
   const work = data.map(o => (
     <div key={o.title} className='lg:w-[500px] w-[800px] mt-10 flex flex-col'>
-      <div className='mx-2 lg:h-[650px] h-[1000px] flex flex-col p-2 rounded-md shadow-2xl justify-between'>
+      <div className='mx-2 lg:h-[650px] flex flex-col p-2 rounded-md shadow-2xl justify-between'>
         <div className='lg:h-[290px] bg-red-900 relative overflow-hidden border shadow-xl'>
           <Image className='object cover'
             src={o.photo}
@@ -16,7 +16,7 @@ export default function Portfolio() {
           /></div>
         <p className='text-xl text-center font-semibold'>{o.title}</p>
         <p className='h-24'>{o.description}</p>
-        <p className='flex flex-wrap '>
+        <p className='flex flex-wrap my-3 lg:my-0  '>
           {o.technologies.map(t => (
             <span key={t} className='px-1 text-white bg-gray-500 rounded-sm m-[1px]'>{t}</span>
           ))

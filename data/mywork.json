@@ -1,28 +1,28 @@
 [     
     {
         "title": "We are Brave!",
-        "description":"Website that You area reading now. You can find here my skill above this section and any important information about me",
+        "description":"Website that you are already looking for. You can find here my skills and some information about me. Under development.",
         "technologies":["Next.js", "Tailwind", "MongoDB", "Cloudinary", "TypeScript","Nodemailer"],
         "link":"https://wearabrave.com.pl",
         "photo":"/brave.png"
     },
     {
         "title": "Onesta Group",
-        "description":"This is real estate website for company what works for polish-speaking clients which try to catch some nice property in Spain, Portugal, Croatia, Dubaj.",
+        "description":"This is real estate website for my company. Developeed for polish-speaking clients which try to catch some nice property in Spain, Portugal, Croatia, Dubaj. Website is still being developed.",
         "technologies":["Next.js", "Tailwind", "MongoDB", "Cloudinary", "Node.js", "Express.js","Nodemailer", "MuiIcons","Postman"],
         "link":"https://onesta.com.pl",
         "photo":"/onesta.png"
     },
     {
         "title": "Healthy Living",
-        "description":"This is demo a website demo where you can calculate your BPM, PPM with recomendations to lose/maintain/gain body weight",
+        "description":"This is demo a website demo where you can calculate your BPM, PPM with recomendations to lose/maintain/gain body weight. Under development.",
         "technologies":["Next.js", "Tailwind", "Nodemailer"],
         "link":"https://healthyliving.com.pl",
         "photo":"/healthy.png"
     },
     {
         "title": "Work Station",
-        "description":"Website demo for recruitment agency in Poland. It very simple in content now but you can see how technologies are used.",
+        "description":"Website demo for recruitment agency in Poland. It very simple in content now but you can see how technologies are used. Under development.",
         "technologies":["Next.js", "Tailwind", "MongoDB", "Cloudinary", "Nodemailer"],
         "link":"https://work-station.pl",
         "photo":"/workstation.png"
