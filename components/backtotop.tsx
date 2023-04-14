@@ -23,6 +23,6 @@ export default function Backtotop() {
       }, []);
 
   return (
-    <Link href="/"><div ref={backToTopButton} className=' duration-150 fixed w-[50px] h-[50px] bottom-10 right-10 border border-[#423e59] bg-[#423e59] hidden text-white hover:bg-white hover:text-[#423e59]'><IoIosArrowUp className='w-[50px] h-[50px] p-2'/></div></Link>
+    <Link href="#start" scroll={false}><div ref={backToTopButton} className=' duration-150 fixed w-[50px] h-[50px] bottom-10 right-10 border border-[#423e59] bg-[#423e59] hidden text-white hover:bg-white hover:text-[#423e59]'><IoIosArrowUp className='w-[50px] h-[50px] p-2'/></div></Link>
   )
 }

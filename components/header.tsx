@@ -63,9 +63,9 @@ export default function Header() {
     <div ref={nav} className="lg:bg-white/[0.5] bg-white h-[100px] w-full fixed z-20 mt-12 flex justify-end items-center transition-transform duration-150 pr-8">
         <nav ref={menuMobile} id="mobile" className='absolute bg-white w-screen h-screen duration-300 top-20 -left-[110%] flex flex-col items-center justify-center'>
             <ul className='flex flex-col text-xl justify-center items-center'>
-                <Link onClick={handleChooseMobileMenuOption} href="/#aboutus"><li className='list-item-style text-3xl'>About me</li></Link>
-                <Link onClick={handleChooseMobileMenuOption} href="/#mywork"><li className='list-item-style text-3xl'>My Work</li></Link>
-                <Link onClick={handleChooseMobileMenuOption} href="/#contact"><li className='list-item-style text-3xl'>Contact</li></Link>
+                <Link onClick={handleChooseMobileMenuOption} href="#aboutus"><li className='list-item-style text-3xl'>About me</li></Link>
+                <Link onClick={handleChooseMobileMenuOption} href="#mywork"><li className='list-item-style text-3xl'>My Work</li></Link>
+                <Link onClick={handleChooseMobileMenuOption} href="#contact"><li className='list-item-style text-3xl'>Contact</li></Link>
                 <div className='flex items-center'>
                     <Link href="https://wa.me/+48669752525"><li className='list-icons-style'><BsWhatsapp className='w-full h-full'/></li></Link>
                     <Link href="https://m.me/100001436277972"><li className='list-icons-style'><BsMessenger className='w-full h-full'/></li></Link>
@@ -89,9 +89,9 @@ export default function Header() {
             /></Link>
         <nav className='hidden lg:block'>
             <ul className='flex text-xl justify-evenly items-center'>
-                <Link href="#aboutus"><li className='list-item-style'>About me</li></Link>
-                <Link href="#mywork"><li className='list-item-style'>My Work</li></Link>
-                <Link href="#contact"><li className='list-item-style'>Contact</li></Link>
+                <Link href="/#aboutus" scroll={false}><li className='list-item-style'>About me</li></Link>
+                <Link href="/#mywork" scroll={false}><li className='list-item-style'>My Work</li></Link>
+                <Link href="/#contact" scroll={false}><li className='list-item-style'>Contact</li></Link>
                 <div className='flex ml-8'>
                     <Link href="https://wa.me/+48669752525"><li className='list-icons-style'><BsWhatsapp className='w-full h-full'/></li></Link>
                     <Link href="https://m.me/100001436277972"><li className='list-icons-style'><BsMessenger className='w-full h-full'/></li></Link>

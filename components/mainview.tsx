@@ -98,10 +98,12 @@ export default function Mainview() {
   },[])
 
   return (
+    <>
+    <span id="start"></span>
     <div className="bg-[url('/bg-home-2.jpeg')] lg:bg-[length:1900px] md:bg-[length:1000px] bg-[length:900px] bg-center bg-no-repeat md:bg-left h-screen flex justify-center items-center mr-24 -mt-12 rounded-r-[50px]">
       <div className="absolute right-0 w-24 h-full flex items-end justify-center pb-20">
         <div className='flex justify-center items-center text-3xl whitespace-nowrap rotate-90 duration-300 hover:pl-10 cursor-pointer'>
-          <Link href="/#aboutus"><p className='px-3 smooth relative'>Let&apos;s go!</p></Link>
+          <Link href="/#aboutus" scroll={false}><p className='px-3 smooth relative'>Let&apos;s go!</p></Link>
           <BsBoxArrowInRight className='w-[40px] h-[40px]' />
         </div>
         </div>
@@ -116,5 +118,6 @@ export default function Mainview() {
             })}
         </div>
     </div>
+    </>
   )
 }

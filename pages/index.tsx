@@ -26,6 +26,7 @@ export default function Home() {
 
   useEffect(() => {
     window.addEventListener("scroll", onScroll);
+    
   }, []);
 
   return (
