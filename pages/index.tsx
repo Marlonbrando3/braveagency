@@ -15,6 +15,19 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
+  let data = 1
+
+  const onScroll = useCallback(() => {
+
+    data = window.pageYOffset 
+  }, []);
+
+  console.log(data)
+
+  useEffect(() => {
+    window.addEventListener("scroll", onScroll);
+  }, []);
+
   return (
     <main>
         {/* <Head>

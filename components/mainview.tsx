@@ -33,7 +33,7 @@ export default function Mainview() {
         status:false
       },
       {
-        text:"Saller",
+        text:"Seller",
         status:false
       },
       {
