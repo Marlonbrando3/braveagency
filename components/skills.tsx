@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function skills() {
   return (
-    <>
-    <div className='w-[1140px] mx-auto text-3xl px-2 text-white'><span className='text-[#c5915b] font-bold text-xl py-1'>My skills</span>
+    <div className='lg:w-[1140px] mx-auto'>
+    <div className='mx-auto text-3xl px-2 text-white'><span className='text-[#c5915b] font-bold text-xl py-1'>My skills</span>
     <div className='text-[#423e59] text-3xl font-[600] pt-4'>Get to know my main skills that I use in cooperate and also in my projects</div>
     </div>
     <div className='w-[1140px] lg:h-[400px] mx-auto flex lg:flex-row flex-col pt-16'>
@@ -177,6 +177,6 @@ export default function skills() {
             </div>
         </div>
     </div>
-    </>
+    </div>
   )
 }
