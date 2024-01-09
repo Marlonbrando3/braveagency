@@ -21,8 +21,6 @@ export default function Home() {
     data = window.pageYOffset;
   }, []);
 
-  console.log(data);
-
   useEffect(() => {
     window.addEventListener("scroll", onScroll);
   }, []);
