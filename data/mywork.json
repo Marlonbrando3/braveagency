@@ -1,14 +1,14 @@
 [
   {
     "title": "Skok na Wiedzę",
-    "description": "Aplikacja internetowa stworzona dla szkoły dla dzieci, której zadaniem jest nauka licznia metodą soroban",
+    "description": "Aplikacja internetowa stworzona dla szkoły uczącej dzieci licznia metodą Soroban",
     "technologies": ["Next.js", "Tailwind CSS", "MongoDB", "TypeScript", "Nodemailer"],
     "link": "https://wearabrave.com.pl",
     "photo": "/soroban_project.png"
   },
   {
     "title": "Onesta Group",
-    "description": "Strona interntowa z dedykowaną wyszukiwarką, rozwijanym system CMS orz CRM dla biura nieruchomości, które działa na terenie ciepłych krajów.",
+    "description": "Strona interntowa z dedykowaną wyszukiwarką, rozwijanym system CMS oraz CRM dla biura nieruchomości, które działa na terenie ciepłych krajów.",
     "technologies": [
       "Next.js",
       "Tailwind",
@@ -25,21 +25,21 @@
   },
   {
     "title": "Healthy Living",
-    "description": "This is demo a website demo where you can calculate your BPM, PPM with recomendations to lose/maintain/gain body weight. Under development.",
+    "description": "Strona demo, prosty landing page dla kalkulatora bilansu kalorycznego.",
     "technologies": ["Next.js", "Tailwind", "Nodemailer"],
     "link": "https://healthyliving.com.pl",
     "photo": "/healthy.png"
   },
   {
     "title": "Work Station",
-    "description": "Website demo for recruitment agency in Poland. It very simple in content now but you can see how technologies are used. Under development.",
+    "description": "Strona wizytówka dla rozwijającej się firmy w branży doradztwa personalnego oraz rekrutacji.",
     "technologies": ["Next.js", "Tailwind", "MongoDB", "Cloudinary", "Nodemailer", "TypeScript"],
     "link": "https://work-station.pl",
     "photo": "/workstation_project.png"
   },
   {
     "title": "Somewhere",
-    "description": "This is portfolio website for studio design. This studio specialize in 3D projections POS and real estate projects.",
+    "description": "Strona dla studia projektowego specjalizującego się w realizowaniu projektów 3D, POS oraz wizualizacji projektów deweloperskich.",
     "technologies": ["Next.js", "Tailwind", "MongoDB", "Cloudinary", "Nodemailer"],
     "link": "https://somewhere.website",
     "photo": "/somewhere.png"
