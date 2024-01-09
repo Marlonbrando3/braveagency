@@ -2,47 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@layer base{
-
-  html{
+@layer base {
+  html {
     @apply overflow-x-hidden scroll-smooth;
   }
 
-  .list-item-style{
-     @apply cursor-pointer font-[500] duration-150 hover:bg-[#423e59] px-4 py-2 rounded-sm text-[#423e59] hover:text-white
+  body {
+    @apply overflow-x-hidden scroll-smooth;
   }
 
-  .list-icons-style{
-    @apply cursor-pointer duration-150 hover:bg-[#423e59] px-2 py-2 rounded-[100%] hover:text-white w-[40px] h-[40px] list-none
- }
+  .list-item-style {
+    @apply cursor-pointer font-[500] duration-150 hover:bg-[#423e59] px-4 py-2 rounded-sm text-[#423e59] hover:text-white;
+  }
 
- .list-item-style-footer{
-    @apply cursor-pointer font-[300] duration-150 hover:bg-[#423e59] py-1 rounded-sm text-white hover:text-white w-[100px]
-}
+  .list-icons-style {
+    @apply cursor-pointer duration-150 hover:bg-[#423e59] px-2 py-2 rounded-[100%] hover:text-white w-[40px] h-[40px] list-none;
+  }
 
- .form-style {
-    @apply h-auto
- }
+  .list-item-style-footer {
+    @apply cursor-pointer font-[300] duration-150 hover:bg-[#423e59] py-1 rounded-sm text-white hover:text-white w-[100px];
+  }
 
- .input{
-    @apply my-10 rounded-md
- }
+  .form-style {
+    @apply h-auto;
+  }
 
- .tall-menu{
-   /* desktop */
-   @apply lg:bg-white/[0.5] h-[100px] w-full fixed z-20 mt-12 flex justify-end items-center transition-all duration-150 pr-8
+  .input {
+    @apply my-10 rounded-md;
+  }
+
+  .tall-menu {
+    /* desktop */
+    @apply lg:bg-white/[0.5] h-[100px] w-full fixed z-20 mt-12 flex justify-end items-center transition-all duration-150 pr-8
 
    /* mobile */
-   bg-white 
- }
- .short-menu{
-   /* desktop */
-   @apply lg:h-[70px] w-full fixed z-20 mt-12 flex justify-end items-center transition-all duration-150 pr-8
+   bg-white;
+  }
+  .short-menu {
+    /* desktop */
+    @apply lg:h-[70px] w-full fixed z-20 mt-12 flex justify-end items-center transition-all duration-150 pr-8
 
     /* mobile */
-    h-[100px] bg-white
- }
- 
+    h-[100px] bg-white;
+  }
 }
-

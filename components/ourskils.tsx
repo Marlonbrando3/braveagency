@@ -4,7 +4,7 @@ export default function Ourskills() {
   return (
     <>
       <div id="aboutus" className="bg-red-900 w-full"></div>
-      <div className="lg:w-[1140px] mx-auto lg:px-0 px-3">
+      <div className="lg:w-[1140px] w-screen mx-auto lg:px-0 px-3">
         <div className="mt-20 mb-4 flex items-start flex-col-reverse md:flex-auto">
           <p className="mt-4 md:text-2xl pb-20 font-[300] md:mr-[40px]">
             Mamy doświadczenie w tworzeniu szerokich, skutecznych strategi marketingowych z
