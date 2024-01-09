@@ -15,7 +15,7 @@ export default function Mainview() {
   // const [actualWork, setAcutalWork] = useState<number>(1)
   const [MyWork, setMyWork] = useState<Works[]>([
     {
-      text: "Skuteczną stronę internetową",
+      text: "Stworzymy stronę internetową",
       status: true,
     },
     {
@@ -23,19 +23,19 @@ export default function Mainview() {
       status: false,
     },
     {
-      text: "Kampanie reklamowe",
+      text: "Poprowadzimy Google Ads",
       status: false,
     },
     {
-      text: "Google Ads / Facebook Ads",
+      text: "Poprowadzimy Facebook Ads",
       status: false,
     },
     {
-      text: "Optymalizacje strony",
+      text: "Zoptymalizujemy stronę",
       status: false,
     },
     {
-      text: "Artykuły na bloga",
+      text: "Napiszemy artykuły",
       status: false,
     },
   ]);
@@ -97,7 +97,7 @@ export default function Mainview() {
         </div>
         <div className=" text-white w-[1140px] lg:h-auto h-[130px] flex flex-col items-start">
           <span className="md:text-5xl text-[30px] font-[500] md:pl-0 pl-2 mb-[5px] bg-orange-500 leading-5 md:h-[50px] min-h-[40px]">
-            Zrobimy dla Ciebie&nbsp;
+            Dla Ciebie&nbsp;
           </span>
           {MyWork.map((w) => {
             if (w.status === true) {
