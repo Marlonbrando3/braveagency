@@ -1,37 +1,66 @@
-[     
-    {
-        "title": "We are Brave!",
-        "description":"Website that you are already looking for. You can find here my skills and some information about me. Under development.",
-        "technologies":["Next.js", "Tailwind", "MongoDB", "Cloudinary", "TypeScript","Nodemailer"],
-        "link":"https://wearabrave.com.pl",
-        "photo":"/brave.png"
-    },
-    {
-        "title": "Onesta Group",
-        "description":"This is real estate website for my company. Developeed for polish-speaking clients which try to catch some nice property in Spain, Portugal, Croatia, Dubaj. Website is still being developed.",
-        "technologies":["Next.js", "Tailwind", "MongoDB", "Cloudinary", "Node.js", "Express.js","Nodemailer", "MuiIcons","Postman"],
-        "link":"https://onesta.com.pl",
-        "photo":"/onesta.png"
-    },
-    {
-        "title": "Healthy Living",
-        "description":"This is demo a website demo where you can calculate your BPM, PPM with recomendations to lose/maintain/gain body weight. Under development.",
-        "technologies":["Next.js", "Tailwind", "Nodemailer"],
-        "link":"https://healthyliving.com.pl",
-        "photo":"/healthy.png"
-    },
-    {
-        "title": "Work Station",
-        "description":"Website demo for recruitment agency in Poland. It very simple in content now but you can see how technologies are used. Under development.",
-        "technologies":["Next.js", "Tailwind", "MongoDB", "Cloudinary", "Nodemailer"],
-        "link":"https://work-station.pl",
-        "photo":"/workstation.png"
-    },
-    {
-        "title": "Somewhere",
-        "description":"This is portfolio website for studio design. This studio specialize in 3D projections POS and real estate projects.",
-        "technologies":["Next.js", "Tailwind", "MongoDB", "Cloudinary", "Nodemailer"],
-        "link":"https://somewhere.website",
-        "photo":"/somewhere.png"
-    }
+[
+  {
+    "title": "Skok na Wiedzę",
+    "description": "Aplikacja internetowa stworzona dla szkoły dla dzieci, której zadaniem jest nauka licznia metodą soroban",
+    "technologies": ["Next.js", "Tailwind CSS", "MongoDB", "TypeScript", "Nodemailer"],
+    "link": "https://wearabrave.com.pl",
+    "photo": "/soroban_project.png"
+  },
+  {
+    "title": "Onesta Group",
+    "description": "Strona interntowa z dedykowaną wyszukiwarką, rozwijanym system CMS orz CRM dla biura nieruchomości, które działa na terenie ciepłych krajów.",
+    "technologies": [
+      "Next.js",
+      "Tailwind",
+      "MongoDB",
+      "Cloudinary",
+      "Node.js",
+      "Express.js",
+      "Nodemailer",
+      "MuiIcons",
+      "Postman"
+    ],
+    "link": "https://onesta.com.pl",
+    "photo": "/onesta.png"
+  },
+  {
+    "title": "Healthy Living",
+    "description": "This is demo a website demo where you can calculate your BPM, PPM with recomendations to lose/maintain/gain body weight. Under development.",
+    "technologies": ["Next.js", "Tailwind", "Nodemailer"],
+    "link": "https://healthyliving.com.pl",
+    "photo": "/healthy.png"
+  },
+  {
+    "title": "Work Station",
+    "description": "Website demo for recruitment agency in Poland. It very simple in content now but you can see how technologies are used. Under development.",
+    "technologies": ["Next.js", "Tailwind", "MongoDB", "Cloudinary", "Nodemailer", "TypeScript"],
+    "link": "https://work-station.pl",
+    "photo": "/workstation_project.png"
+  },
+  {
+    "title": "Somewhere",
+    "description": "This is portfolio website for studio design. This studio specialize in 3D projections POS and real estate projects.",
+    "technologies": ["Next.js", "Tailwind", "MongoDB", "Cloudinary", "Nodemailer"],
+    "link": "https://somewhere.website",
+    "photo": "/somewhere.png"
+  },
+  {
+    "title": "Personal Taxi",
+    "description": "Strona dla korporacji taksówkarskiej, która umożliwa rezerwację i opłacenie kursu online",
+    "technologies": [
+      "Next.js",
+      "Node.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "MongoDB",
+      "Cloudinary",
+      "Nodemailer",
+      "Przelewy24",
+      "TomTom Maps",
+      "PayPal",
+      "Google Pay"
+    ],
+    "link": "https://somewhere.website",
+    "photo": "/personaltaxi.png"
+  }
 ]
