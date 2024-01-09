@@ -7,10 +7,10 @@ import Aboutme from "@/components/aboutme";
 import Skills from "@/components/skills";
 import Portfolio from "@/components/portfolio";
 import Contact from "@/components/contact";
-import Footer from "@/components/footer";
 import Backtotop from "@/components/backtotop";
 import { Inter } from "next/font/google";
 import Ourskills from "@/components/ourskils";
+import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
