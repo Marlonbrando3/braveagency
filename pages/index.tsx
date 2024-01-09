@@ -10,7 +10,7 @@ import Contact from "@/components/contact";
 import Backtotop from "@/components/backtotop";
 import { Inter } from "next/font/google";
 import Ourskills from "@/components/ourskils";
-import Footer from "@/components/footer";
+import Footer from "@/components/foot";
 
 const inter = Inter({ subsets: ["latin"] });
 
